@@ -1,0 +1,126 @@
+1. Every day, Joe arrives at the train station from work at 6pm.
+His wife leaves home in her car to meet him there at exactly 6pm, and drives him home. One day, Joe gets to the station an hour early, and starts walking home, until his wife meets him on the road. They get home 20 minutes earlier than usual.
+How long was he walking?
+Distances are unspecified. Speeds are unspecified, but constant.
+Output a number which represents the answer in minutes.
+
+2. You have two ropes and a box of matches. Each rope takes exactly one hour to burn, but they may not necessarily burn evenly – i.e., the first half might burn in the first 10 minutes and the second in the remaining 50). How to measure 45 minutes using the 2 ropes?
+
+3. Using only a four-minute hourglass and a seven-minute hourglass, how to measure 9 minutes.
+
+4. There is a building of 100 floors
+If an egg drops from the Nth floor or above it will break. If it’s dropped from any floor below, it will not break. You’re given 2 eggs. Find N, while minimizing the number of drops for the worst case.
+
+These are very strong eggs, because they can be dropped multiple times without breaking as long as they are dropped from floors below their “threshold” floor, floor N. But once an egg is dropped from a floor above it’s threshold floor, it will break.
+
+Output the minimum number of drops required to figure out N.
+
+5. 100 people standing in a circle in an order 1 to 100.
+
+No.1 has a sword.
+He kills next person (i.e. no. 2) and gives sword to next to next (i.e no.3).
+All person does the same until only 1 survives.
+
+Which number survives at the last?
+
+6. There are 25 horses. We have to find out the fastest 3 horses. In one race maximum 5 horses can run. How many such races are required in minimum to get the result?
+
+7. There are 100 switches in a room operating 100 bulbs. Initially all switches are off. You
+are asked to make 100 passes through them, in such a manner that during ith pass all
+switches that are multiples of i are toggled (if a switch is off, you switch it on, if it is on,
+you switch it off). For example during 10th pass you will toggle switch numbers 10, 20,
+30… 100. After completing 100 passes through the switches how many bulbs are on?
+What are their numbers?
+Hint: A switch is toggled as many times as it has number of divisors.
+
+8. Two trains enter a tunnel 200 miles long, traveling at 100 mph at the same time from opposite directions.
+As soon as they enter the tunnel a supersonic bee flying at 1000 mph starts from one train and heads toward the other one.
+As soon as it reaches the other one it turns around and heads back toward the first, going back and forth between the trains until the trains collide in a fiery explosion in the middle of the tunnel.
+How far did the bee travel?
+
+Respond with a number which represents the number of miles.
+
+9. Four people are on this side of the bridge. Everyone has to get across.
+Problem is that it’s dark and so you can’t cross the bridge without a flashlight and they only have one flashlight.
+Plus the bridge is only big enough for two people to cross at once.
+The four people walk at different speeds:
+
+        one fella is so fast it only takes him 1 minute to cross the bridge,
+        another 2 minutes,
+        a third 5 minutes,
+        the last it takes 10 minutes to cross the bridge.
+
+When two people cross the bridge together (sharing the flashlight), they both walk at the slower person’s pace. What is the minimum time required for all 4 to cross the bridge.
+
+Respond with a number which represents the number of minutes.
+
+10. In your cellar there are three light switches in the OFF position. Each switch controls one of three light bulbs on floor above.
+You may move any of the switches but you may only go upstairs to inspect the bulbs.
+When upstairs, you cannot access the switches. What is the minimum number of times you need to go upstairs to determine the switch for each bulb?
+
+11. You are blindfolded and 100 coins are place in front of you on table.
+You are allowed to touch the coins, but can’t tell which way up they are by feel.
+
+You are told that there are 50 coins head up, and 50 coins tails up but not which ones are which.
+
+Can you make two piles of coins each with the same number of heads up?
+You can flip the coins any number of times.
+
+
+12. You have 9 balls all look identical (in shape, color etc.). All of them have same weight except one defective ball which is heavier than others. You can use a two sided balance system (not the electronic one). Find the minimum no. of measures required to separate the defective ball and the way you separate it.
+
+13. You’ve got someone working for you for seven days and a gold bar to pay him. The gold bar is segmented into seven connected pieces. You must give them a piece of gold at the end of every day. What are the fewest number of cuts to the bar of gold that will allow you to pay him 1/7th each day?
+
+14. You are on a strict medical regimen that requires you to take two types of pills each day. You must take exactly one A pill and exactly one B pill at the same time. The pills are very expensive, and you don’t want to waste any. So you open the bottle of A pills, and tap one out into your hand. Then you open the bottle of B pills and do the same thing – but you make a mistake, and two B pills come out into your hand with the A pill. But the pills are all exactly identical. There is no way to tell A pills apart from B pills. Is it possible to satisfy your regimen and take exactly one of each pill at the same time, without wasting any pills?
+
+15. Two MIT math grads bump into each other at Fairway on the upper west side. They haven’t seen each other in over 20 years.
+
+The first grad says to the second: “how have you been?”
+Second: “great! i got married and i have three daughters now”
+First: “really? how old are they?”
+Second: “well, the product of their ages is 72, and the sum of their ages is the same as the number on that building over there..”
+First: “right, ok.. oh wait.. hmm, i still don’t know”
+Second: “oh sorry, the oldest one just started to play the piano”
+First: “wonderful! my oldest is the same age!”
+
+How old are the daughters?
+
+16. A village had a pond surrounded by four temples and a garden of flowers. A person came
+to pay obeisance. He plucked some flowers and as per the Hindu customs, washed the
+flowers in the pond but to his astonishment his flowers got doubled. He offered some in
+the first temple.
+He again washed the remaining flowers in the pond, they got doubled and he paid some
+flowers in the second temple. He did the same for rest of the two temples also. He
+washed the flowers; they got doubled and then offered some in the temples.
+After offering the flowers to the four temples, he had no flower left. Considering he did
+not pluck any extra flower from the garden and he offered equal amount of flowers to
+each temple, what is the minimum number of flowers the person had plucked? How
+many flowers did he offer in each temple?
+
+17. A monkey starts climbing a pole that is 30 feet high. He climbs 3 feet in an hour, then
+rest for one hour during which he slips down 2 feet. He does this way until he reaches at
+the top. When would he be able to reach at the top?
+
+18. Three IT professionals, Abhinava, Vibhava and Rishi wish to know the average of their
+salaries but cannot divulge their salaries to anyone, not even to an outsider, as per the
+confidentiality contract signed by them with the company. How can they find their
+average salary, without disclosing their own salaries?
+
+19. Shikha wants to send some gold coins to his friend Asha through courier service. She has
+a box in which she has put the gold coins. She does not want to send the box open as the
+courier boy may open the box and take out some gold coins without her knowledge. She
+cannot lock it either as then she would have to send the key to the lock. How can she send
+the box locked to her friend, so that it may be opened by her friend only? Shikha does not
+want to send the keys to Asha in any circumstances.
+
+20. Last year in a soccer knockout tournament 67 matches were played in all. The
+participating teams are divided into pairs and played against each other and the team
+losing a match got knocked off and the remaining teams are paired up again. How many
+teams participated in the tournament?
+
+21. A farmer has a banana plantation and a camel. He wants to transport his 3000 bananas to
+the market, which is located after a desert. The distance between his banana plantation
+and the market is 1000 kilometer. So he decided to take his camel to carry the bananas.
+The camel can carry at the maximum of 1000 bananas at a time, and it eats one banana
+for every kilometer it travels. What is the largest number of bananas that the farmer can
+deliver at the market?
