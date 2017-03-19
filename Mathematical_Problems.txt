@@ -1,0 +1,38 @@
+1.  Find if a number is power of 2 (without using moduls or multiplication operation)
+
+2.  Count all set bits (One’s) in binary representation of any given integer.
+
+3.  Find if a number is even or odd (without using moduls or multiplication operation)
+
+4.  Multiply a number with 80 (without using multiplication operation)
+
+5.	Count the zeroes at the end of n! (factorial of n). So for 5! (=120) return 1 and for 10! (=3628800) return 2. Remember zeroes at the end not in between like 15! (=1307674368000) return 3. It should work for a large input like 1000 also (finding factorial of 1000 is not possible).
+
+6.	How to determine if a given number is prime?
+
+7.	Print all prime numbers from 1 to given number n (using Sieve of Eratosthenes)?
+
+8.	Find the square root of given number n without using Math.sqrt() function and multiplication operation? Return the largest integer less than or equal to square root of given number n. For example:
+getSquareRoot(16) = 4
+getSquareRoot(17) = 4
+getSquareRoot(25) = 5
+getSquareRoot(26) = 5 
+getSquareRoot(36) = 6
+
+9.	Write a method to get factorial of given integer? Try both recursive and iterative method. (Try if you can cache the computed factorial values to not recalculate a factorial)
+
+10.	Write a method to generate the nth Fibonacci number. Try both recursive and iterative function.
+Fibonacci Function: f(0) = 0, f(1) = 1, f(n) = f(n - 1) + f(n - 2)
+(Try if you can cache the computed Fibonacci values to not recalculate a Fibonacci) 
+
+11.	Find LCM and GCD of given 2 numbers. 
+
+12.	Print prime factors of a given number. e.g. for 54 Prime factors: 2, 3, 3, 3.
+
+13.	Return the reverse of a given integer. For 123 return 321
+
+14.	Find the digital root  of a given number.
+Digital Root: (also repeated digital sum) of a number is the (single digit) value obtained by an iterative process of summing digits, on each iteration using the result from the previous iteration to compute a digit sum. The process continues until a single-digit number is reached.
+For example, the digital root of 65,536 is 7, because 6+5+5+3+6 = 25 and 2+5 = 7.
+[Hint: Do not really need to sum all the digits. Look for a simple formula in math]
+
